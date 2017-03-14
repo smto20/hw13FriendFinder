@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+  <title>Friend Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <h2>Questionnaire</h2>
+    <hr>
+
+    <h3>Tell Us About Yourself</h3>
+    <h4>Name</h4>
+    <input type="text" name="" id="name" class="form-control" required="">
+
+    <h4>Link to a Photo</h4>
+    <input type="text" name="" id="photo" class="form-control" required="">
+
+    <hr>
+
+    <h3>1</h3>
+    <h4>I'm a social person.</h4>
+    <select data-placeholder="" class="chosen-select" id="q1">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q1_chosen"><a class="chosen-single chosen-default">
+        <span>Select an Option</span><div><b></b></div></a>
+        <div class="chosen-drop">
+        <div class="chosen-search"><input type="text" autocomplete="off">
+            </div>
+            <ul class="chosen-results"></ul>
+        </div>
+    </div>
+
+    <h3>2</h3>
+    <h4>I like to be active more than I enjoy watching tv.</h4>
+    <select data-placeholder="" class="chosen-select" id="q2">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q2_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop">
+        <div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+    <h3>3</h3>
+    <h4>I like to be outdoors and enjoy exercise.</h4>
+    <select data-placeholder="" class="chosen-select" id="q3">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q3_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+    <h3>4</h3>
+    <h4>I would consider myself a night owl.</h4>
+    <select data-placeholder="" class="chosen-select" id="q4">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q4_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+    <h3>5</h3>
+    <h4>I love mornings - I am definitely a morning person.</h4>
+    <select data-placeholder="" class="chosen-select" id="q5">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q5_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+    <h3>6</h3>
+    <h4>I love trying new things and meeting new people.</h4>
+    <select data-placeholder="" class="chosen-select" id="q6">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q6_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+
+    <h3>7</h3>
+    <h4>I strongly identify with my career.</h4>
+    <select data-placeholder="" class="chosen-select" id="q7">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q7_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a>
+        <div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+    <h3>8</h3>
+    <h4>I value my home life more than my professional life/career path.</h4>
+    <select data-placeholder="" class="chosen-select" id="q8">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q8_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+    <h3>9</h3>
+    <h4>I am a highly religious person.</h4>
+    <select data-placeholder="" class="chosen-select" id="q9">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q9_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+    <h3>10</h3>
+    <h4>I am easy to get along with.</h4>
+    <select data-placeholder="" class="chosen-select" id="q10">
+      <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select><div class="chosen-container chosen-container-single" style="width: 140px;" title="" id="q10_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+
+    <br>
+    <br>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-danger btn-lg btn-block" id="submit"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+ Submit</button>
+
+    <hr>
+      <footer class="footer">
+        <div class="container">
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/smto20/hw13FriendFinder">GitHub Repo</a></p>
+        </div>
+      </footer>
+
+  </div>
+
+</body>
+</html>
